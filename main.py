@@ -9,7 +9,8 @@ warm and friendly at first glance, gently funny, understood by any
 stranger of any age or background, plainly chosen rather than the
 first default smiley, and right coming from someone unknown — a
 small, wordless gift of warmth, with no intimacy, sarcasm or
-flirtation in it.
+flirtation in it. The output is exactly one Unicode code point
+(4 bytes in UTF-8), so the entry file holds nothing but the emoji.
 """
 
 import os
